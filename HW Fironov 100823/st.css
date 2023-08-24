@@ -1,0 +1,16 @@
+ol li {
+    display: inline;
+    margin: 15px;
+    padding: 5px 8px;
+    background-color: aquamarine;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.centr {
+    padding: 0 40% 0;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: yellow;
+    }
+

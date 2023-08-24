@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form2</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <label for="equip" style="color: red; font-style: italic;">Виберить тип продукту:</label>
+        <select id="equip" name="equip" style="background-color: yellow;">
+          <option value="phone">телефон</option>
+          <option value="note">ноутбук</option>
+          <option value="vacuum">пилесос</option>
+          <option value="charge">зарядка</option>
+        </select>
+        <br>
+        <p style="color: red; font-style: italic;">Виберить потужність:</p>
+        <input type="checkbox" id="pw1" name="pw1" value="15w">
+        <label for="pw1" style="color:chocolate; font-size: 20px;"> 15w</label><br>
+        <input type="checkbox" id="pw2" name="pw2" value="25w">
+        <label for="pw2" style="color:chocolate; font-size: 20px;"> 25w</label><br>
+        <input type="checkbox" id="pw3" name="pw3" value="65w">
+        <label for="pw3" style="color:chocolate; font-size: 20px;"> 65w</label><br>
+        <input type="checkbox" id="pw4" name="pw4" value="100w">
+        <label for="pw4" style="color:chocolate; font-size: 20px;">100w</label><br>
+        <input type="checkbox" id="pw5" name="pw5" value="200w">
+        <label for="pw5" style="color:chocolate; font-size: 20px;">200w</label><br><br>
+
+        <p style="color: red; font-style: italic;">Виберить марку пристрою:</p>
+        <input type="checkbox" id="samsung" name="samsung" value="samsung">
+        <label for="samsung" style="color:darkviolet; font-size: 20px;">Samsung</label><br>
+        <input type="checkbox" id="lg" name="lg" value="lg">
+        <label for="lg" style="color:darkviolet; font-size: 20px;">LG</label><br>
+        <input type="checkbox" id="asus" name="asus" value="asus">
+        <label for="asus" style="color:darkviolet; font-size: 20px;">Asus</label><br>
+        <input type="checkbox" id="lenovo" name="lenovo" value="lenovo">
+        <label for="lenovo" style="color:darkviolet; font-size: 20px;">Lenovo</label><br><br>
+        
+        <label for="grade" style="color: red; font-style: italic;">Сортування:</label>
+        <select id="grade" name="grade" size="3" multiple style="background-color: yellow;">
+        <option value="cheap">від дешевих</option>
+        <option value="costly">від дорогих</option>
+        <option value="rate">по рейтингу</option>
+        </select><br><br>
+        
+        <label for="name" style="color:red; font-style: italic;">Введить назву моделі:</label><br>
+        <input type="text" id="name" name="name" placeholder="Введить назву моделі" style="background-color:yellow;"><br><br>
+        
+        <input type="submit">
+      </form>
+
+
+
+</body>
+</html>

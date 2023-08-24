@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+   <style>
+    * {
+        font-family:'Courier New', Courier, monospace;
+    }
+   
+    tr:hover {background-color: #0d9696;}
+
+    .cap {
+    color: red;
+    background-color: yellow;
+    font-size: 50px;
+    }
+
+    tr td {
+        text-align: center;
+    }
+
+    tr {
+        background-color: chartreuse;
+    }
+
+    #zag {
+        background-color: aquamarine;
+    }
+
+    hr + h2 {
+        color: blue;
+    }
+
+    h2 ~ p {
+        color:red;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    </style>
+   
+    <table border="1">
+    <caption class="cap">Рейтинг команд</caption>
+        <thead>
+            <tr id="zag">
+                <th>Команда</th>
+                <th>Перемога</th>
+                <th>Ничия</th>
+                <th>Поразка</th>
+                <th>Очки</th>
+                <th>Місце</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Барселона</td>
+                <td>2</td>
+                <td>1</td>
+                <td>0</td>
+                <td>7</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Реал Мадрид</td>
+                <td>2</td>
+                <td>0</td>
+                <td>1</td>
+                <td>6</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Валенсія</td>
+                <td>1</td>
+                <td>2</td>
+                <td>0</td>
+                <td>5</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Загальні результати</th>
+            <th>6</th>
+            <th>3</th>
+            <th>1</th>
+            <th>18</th>
+            <th><a href="./table2.html">Про команди</a></th>
+        </tfoot>
+    </table>
+    <hr>
+    <h2>Інші статистичні дані</h2>
+    <p>Нижче у таблиці приведені показники дисціплини команд, а саме одержані жовті та червоні картки</p>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Команда</th>
+                <th>Кількість матчей</th>
+                <th>Кількість КК</th>
+                <th>Кількість ЖК</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Барселона</td>
+                <td>3</td>
+                <td>1</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Реал Мадрид</td>
+                <td>3</td>
+                <td>0</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Валенсія</td>
+                <td>3</td>
+                <td>1</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Загальні результати</th>
+            <th>9</th>
+            <th>2</th>
+            <th>12</th>
+        </tfoot>
+    </table>
+</body>
+</html>

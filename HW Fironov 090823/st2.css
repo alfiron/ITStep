@@ -1,0 +1,54 @@
+.ssst1, .ssst2 {
+    border: 2px solid red;
+    margin: 20px;
+    height: 200px;
+    width: 700px;
+    float: left;
+}
+
+.ssst3, .ssst4 {
+    border: 2px solid red;
+    margin: 20px;
+    float: left;
+}
+
+.ssst3 {
+    height: 300px;
+    width: 400px;
+    background-color: coral;
+}
+
+.ssst4 {
+    height: 300px;
+    width: 400px;
+    background-color: lightgreen;
+}
+
+.img1{
+    width: 70px;
+    height: 70px;
+}
+
+.img2 {
+    width: 240px;
+    height: 240px;
+}
+
+.img3 {
+    width: 175px;
+    height: 175px;
+}
+
+.ssst1 {
+    background-color: yellow;
+    text-align: center;
+}
+
+.ssst2 {
+    background-color: aqua;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
